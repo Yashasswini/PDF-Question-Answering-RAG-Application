@@ -12,12 +12,12 @@ Features:
 6. Utilize Gemini Generative AI to generate a detailed response based on the extracted information.
 
 Technology Stack:
-Streamlit: Interactive UI for uploading PDFs and entering queries.
-Generative AI (Gemini): Used to generate human-like responses.
-Sentence-Transformers: Embedding model for text similarity (all-MiniLM-L6-v2).
-FAISS: Vector store for efficient similarity search.
-PyPDF2: To read PDF documents.
-LangChain: Text splitting and processing.
+1. Streamlit: Interactive UI for uploading PDFs and entering queries.
+2. Generative AI (Gemini): Used to generate human-like responses.
+3. Sentence-Transformers: Embedding model for text similarity (all-MiniLM-L6-v2).
+4. FAISS: Vector store for efficient similarity search.
+5. PyPDF2: To read PDF documents.
+6. LangChain: Text splitting and processing.
 
 How It Works:
 
