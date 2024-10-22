@@ -26,3 +26,5 @@ How It Works:
 3. Query Input: The user can input any query related to the PDF content.
 4. Embedding & Similarity Search: The application encodes both the query and the text chunks into embeddings using SentenceTransformers, and computes cosine similarity to retrieve the top relevant chunks.
 5. Answer Generation: Using the most relevant document chunks, the Gemini model generates an answer to the query.
+
+   ** Please note to give your own api key
