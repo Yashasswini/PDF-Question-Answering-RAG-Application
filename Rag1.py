@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
 
-api_key = "AIzaSyAL-qRgAXhcmhYNk6afYjWwuqm9D54B3gc"
+api_key = "your_api_key"
 genai.configure(api_key=api_key)
 
 emb = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
